@@ -25,6 +25,10 @@ export GOPATH=$HOME/golang
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
+# source scala
+export SCALA_HOME=/usr/local/Cellar/scala/2.11.7
+export PATH=$SCALA_HOME/bin:$PATH
+
 # source apache maven
 #export M3_HOME=/usr/local/apache-maven-3.3.3
 #export PATH=$M3_HOME/bin:$PATH
