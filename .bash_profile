@@ -18,7 +18,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # source nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-nodebrew use v0.10.36
+nodebrew use v6.2.2
 
 # source golang
 export GOPATH=$HOME/golang
@@ -28,10 +28,6 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 # source scala
 export SCALA_HOME=/usr/local/Cellar/scala/2.11.7
 export PATH=$SCALA_HOME/bin:$PATH
-
-# source apache maven
-#export M3_HOME=/usr/local/apache-maven-3.3.3
-#export PATH=$M3_HOME/bin:$PATH
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/ohtomi/.sdkman"
