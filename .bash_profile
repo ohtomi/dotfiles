@@ -8,6 +8,9 @@ export PATH=/usr/local/bin:$PATH
 source ~/git-prompt.sh
 PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n\$ '
 
+# source diff-highlight
+export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH
+
 # source pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which virtualenv > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi

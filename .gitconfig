@@ -1,0 +1,7 @@
+[user]
+	name = ohtomi
+	email = ohtomi.kenichi@gmail.com
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
