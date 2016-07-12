@@ -7,3 +7,5 @@
 	diff = diff-highlight | less
 [diff]
 	compactionHeuristic = true
+[ghq]
+  root = ~/repo/src

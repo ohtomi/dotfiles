@@ -1,6 +1,21 @@
 # alias
 alias ll='ls -laG'
 
+# functions
+function pcd {
+  local dir="$(ghq list -p | peco)"
+  if [ ! -z "$dir" ]; then
+    cd "$dir"
+  fi
+}
+
+function gh-open {
+  local site="$(ghq list | peco | cut -d "/" -f 2,3)"
+  if [ ! -z "$site" ]; then
+    hub browse "$site"
+  fi
+}
+
 # source homebrew
 export PATH=/usr/local/bin:$PATH
 
@@ -24,9 +39,8 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 nodebrew use v6.2.2
 
 # source golang
-export GOPATH=$HOME/golang
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export GOPATH=$HOME/repo
+export PATH=$GOPATH/bin:$PATH
 
 # source scala
 export SCALA_HOME=/usr/local/Cellar/scala/2.11.7
