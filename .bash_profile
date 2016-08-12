@@ -2,14 +2,14 @@
 alias ll='ls -laG'
 
 # functions
-function pcd {
+function g {
   local dir="$(ghq list -p | peco)"
   if [ ! -z "$dir" ]; then
     cd "$dir"
   fi
 }
 
-function gh-open {
+function h {
   local site="$(ghq list | peco | cut -d "/" -f 2,3)"
   if [ ! -z "$site" ]; then
     hub browse "$site"
