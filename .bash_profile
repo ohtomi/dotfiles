@@ -16,6 +16,17 @@ function gh-open {
   fi
 }
 
+function c {
+  if [ ! -d $1 ]; then
+    echo "$1: Not a directory"
+    return
+  fi
+  local dir="$(find $1 -maxdepth 1 -type d | sort | peco)"
+  if [ ! -z "$dir" ]; then
+    cd "$dir"
+  fi
+}
+
 # source homebrew
 export PATH=/usr/local/bin:$PATH
 
