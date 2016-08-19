@@ -27,6 +27,15 @@ function c {
   fi
 }
 
+function peco-history {
+  local l=$(HISTTIMEFORMAT= history | sort -k1,1nr | sed 's/^ *[0-9]* *//' | peco --query "$READLINE_LINE")
+  READLINE_LINE="$l"
+  READLINE_POINT=${#l}
+}
+
+bind -x '"\C-r": peco-history'
+
+
 # source homebrew
 export PATH=/usr/local/bin:$PATH
 
