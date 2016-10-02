@@ -35,6 +35,10 @@ function peco-history {
 
 bind -x '"\C-r": peco-history'
 
+function gzipinfo {
+  gzcat $1 | tar tv
+}
+
 
 # source homebrew
 export PATH=/usr/local/bin:$PATH
