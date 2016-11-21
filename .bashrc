@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Homebrew
-export HOMEBREW_NO_AUTO_UPDATE=1
-export HOMEBREW_NO_ANALYTICS=1
+# alias
+alias ll='ls -laG'
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/ohtomi/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+# function
+source $DOTFILES/bash/peco.sh
+
+# git-prompt
+source $DOTFILES/git-prompt.sh
+PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n\$ '

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gzcat $1 | tar tv
