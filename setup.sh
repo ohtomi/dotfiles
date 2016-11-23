@@ -1,9 +1,8 @@
 #!/bin/bash
 
-for file in .??*
-do
-  [[ "$file" == ".git" ]] && continue
-  [[ "$file" == ".DS_Store" ]] && continue
+dotfiles=".bash_profile .bashrc .gitconfig .vimrc"
 
-  ln -sfn "`pwd`/$file" "$HOME/$file"
+for dotfile in $dotfiles
+do
+  ln -sfn "$HOME/dotfiles/$dotfile" $HOME
 done
