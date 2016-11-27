@@ -1,4 +1,4 @@
-export DOTFILES=$HOME/dotfiles
+export DOTFILES=$HOME/src/github.com/ohtomi/dotfiles
 
 # dotfiles/bin
 export PATH=$DOTFILES/bin:$PATH
