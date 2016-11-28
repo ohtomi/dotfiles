@@ -19,7 +19,7 @@ if which virtualenv > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 # rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-rbenv global 2.3.1
+rbenv global 2.3.3
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
