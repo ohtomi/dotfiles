@@ -29,10 +29,6 @@ nodebrew use v6.9.1
 export GOPATH=$HOME/repo
 export PATH=$GOPATH/bin:$PATH
 
-# scala
-export SCALA_HOME=/usr/local/Cellar/scala/2.11.7
-export PATH=$SCALA_HOME/bin:$PATH
-
 # .bashrc
 [[ -f "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
 
