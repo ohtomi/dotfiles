@@ -23,7 +23,7 @@ rbenv global 2.3.1
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-nodebrew use v6.2.2
+nodebrew use v6.9.1
 
 # golang
 export GOPATH=$HOME/repo
