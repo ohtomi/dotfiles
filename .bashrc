@@ -6,11 +6,20 @@ alias ll='ls -laG'
 # function
 source $DOTFILES/bash/peco.sh
 
+# homebrew
+source /usr/local/etc/bash_completion.d/brew
+
 # git-completion
 source /usr/local/etc/bash_completion.d/git-completion.bash
 
 # git-prompt
 source /usr/local/etc/bash_completion.d/git-prompt.sh
+
+# nodebrew
+source /usr/local/etc/bash_completion.d/nodebrew
+
+# tmux
+source /usr/local/etc/bash_completion.d/tmux
 
 # In addition, if you set GIT_PS1_SHOWDIRTYSTATE to a nonempty value,
 # unstaged (*) and staged (+) changes will be shown next to the branch
