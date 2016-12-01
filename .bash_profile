@@ -1,8 +1,5 @@
 export DOTFILES=$HOME/src/github.com/ohtomi/dotfiles
 
-# dotfiles/bin
-export PATH=$DOTFILES/bin:$PATH
-
 # diff-highlight
 export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH
 
