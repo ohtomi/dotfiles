@@ -1,15 +1,13 @@
 # dotfiles
 
 ## Usage
-
 ```
-$ git clone git@github.com:ohtomi/dotfiles.git
-$ cd dotfiles
+$ git clone git@github.com:ohtomi/dotfiles.git ~/src/github.com/ohtomi/dotfiles
+$ cd ~/src/github.com/ohtomi/dotfiles
 $ bash ./setup.sh
 ```
 
 ## Contributing
-
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
@@ -17,5 +15,4 @@ $ bash ./setup.sh
 5. Submit a pull request :D
 
 ## License
-
 MIT
