@@ -2,6 +2,11 @@
 
 # alias
 alias ll='ls -laG'
+alias gits='git status'
+alias gitd='git diff'
+alias gitdc='git diff --cached'
+alias gitl='git log --oneline --graph --decorate --date=short --pretty="format:%C(yellow)%h %C(cyan)%ad %C(green)%an%Creset%x09%s %C(red)%d%Creset"'
+alias gitln='git log --name-status'
 
 # function
 source $DOTFILES/bash/peco.sh
