@@ -32,3 +32,32 @@ function peco-history {
 }
 
 bind -x '"\C-r": peco-history'
+
+function sblist {
+  scrapbox list $@
+}
+
+function sbread {
+  local page=$(scrapbox list $@ | peco)
+  if [ "$page" != "" ]; then
+    scrapbox read $1 "$page"
+  fi
+}
+
+function sbopen {
+  local page=$(scrapbox list $@ | peco)
+  if [ "$page" != "" ]; then
+    local url=$(scrapbox open $1 "$page")
+    open "$url"
+  fi
+}
+
+function sblink {
+  local page=$(scrapbox list $@ | peco)
+  if [ "$page" != "" ]; then
+    local links=$(scrapbox link $1 "$page")
+    for url in $links; do
+      open "$url"
+    done
+  fi
+}
