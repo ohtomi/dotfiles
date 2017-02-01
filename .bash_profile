@@ -40,6 +40,9 @@ export PATH=$GOPATH/bin:$PATH
 # .bashrc
 [[ -f "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
 
+# .github_token
+[[ -f "$HOME/.github_token" ]] && source "$HOME/.github_token"
+
 # sdkman
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
