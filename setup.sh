@@ -7,9 +7,16 @@ do
   ln -sfn "$HOME/src/github.com/ohtomi/dotfiles/$dotfile" $HOME
 done
 
-if [ ! -f "$HOME/.github_token" ]; then
-  echo "export GITHUB_TOKEN=(my token)" >$HOME/.github_token
-  echo "created $HOME/.github_token ! set GITHUB_TOKEN"
+extra_dotfile=".github_token"
+if [ ! -f "$HOME/$extra_dotfile" ]; then
+  echo "export GITHUB_TOKEN=(my token)" >$HOME/$extra_dotfile
+  echo "created $HOME/$extra_dotfile ! set GITHUB_TOKEN"
+fi
+
+extra_dotfile=".scrapbox_token"
+if [ ! -f "$HOME/$extra_dotfile" ]; then
+  echo "export SCRAPBOX_TOKEN=(my token)" >$HOME/$extra_dotfile
+  echo "created $HOME/$extra_dotfile ! set SCRAPBOX_TOKEN"
 fi
 
 mkdir -p $HOME/bin

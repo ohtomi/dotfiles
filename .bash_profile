@@ -43,6 +43,9 @@ export PATH=$GOPATH/bin:$PATH
 # .github_token
 [[ -f "$HOME/.github_token" ]] && source "$HOME/.github_token"
 
+# .scrapbox_token
+[[ -f "$HOME/.scrapbox_token" ]] && source "$HOME/.scrapbox_token"
+
 # sdkman
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
