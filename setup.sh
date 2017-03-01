@@ -19,6 +19,7 @@ if [ ! -f "$HOME/$extra_dotfile" ]; then
   echo "created $HOME/$extra_dotfile ! set SCRAPBOX_TOKEN"
 fi
 
+
 mkdir -p $HOME/bin
 
 binfiles="gzipinfo"
@@ -27,3 +28,7 @@ for binfile in $binfiles
 do
   ln -sfn "$HOME/src/github.com/ohtomi/dotfiles/bin/$binfile" $HOME/bin
 done
+
+
+mkdir -p $HOME/.lazybones
+ln -sfn "$HOME/src/github.com/ohtomi/dotfiles/.lazybones/managed-config.json" $HOME/.lazybones

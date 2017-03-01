@@ -1,0 +1,6 @@
+{
+    "bintrayRepositories": [
+        "ohtomi/lazybones-templates",
+        "pledbrook/lazybones-templates"
+    ]
+}
