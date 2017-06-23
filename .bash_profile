@@ -30,7 +30,7 @@ fi
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 if which nodebrew > /dev/null; then
-  nodebrew use v6.9.1
+  nodebrew use v8.1.2
 fi
 
 # golang
