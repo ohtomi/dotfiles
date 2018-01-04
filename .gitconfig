@@ -7,5 +7,14 @@
 	diff = diff-highlight | less
 [diff]
 	compactionHeuristic = true
+[alias]
+	alias  = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ => \\2/' | sort
+	ignore = "!ignore () { echo $1 >> .gitignore;}; ignore"
+	s = !git status
+	d = !git diff
+	dc = !git diff --cached
+	l = !git log --oneline --graph --decorate --date=short --pretty=\"format:%C(yellow)%h %C(cyan)%ad %C(green)%an%Creset%x09%s %C(red)%d%Creset\"
+	ln = !git log --name-status
+	this = !git init && git add . && git commit -m \"Initial commit\"
 [ghq]
 	root = ~/src
