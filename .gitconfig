@@ -1,6 +1,8 @@
 [user]
 	name = ohtomi
 	email = ohtomi.kenichi@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
 [pager]
 	log = diff-highlight | less
 	show = diff-highlight | less
