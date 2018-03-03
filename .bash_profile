@@ -12,14 +12,6 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_ANALYTICS=1
 
-# pyenv
-if which pyenv > /dev/null; then
-  eval "$(pyenv init -)"
-fi
-if which virtualenv > /dev/null; then
-  eval "$(pyenv virtualenv-init -)"
-fi
-
 # rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then
