@@ -12,6 +12,7 @@
 [alias]
 	alias  = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ => \\2/' | sort
 	ignore = "!ignore () { echo $1 >> .gitignore;}; ignore"
+	br = !git symbolic-ref --short HEAD
 	s = !git status
 	d = !git diff
 	dc = !git diff --cached
