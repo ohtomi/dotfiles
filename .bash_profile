@@ -16,7 +16,7 @@ export HOMEBREW_NO_ANALYTICS=1
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
-  rbenv global 2.3.3
+  rbenv global 2.5.0
 fi
 
 # nodebrew
