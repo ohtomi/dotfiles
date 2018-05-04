@@ -1,3 +1,8 @@
+# bind: 警告: 行編集が有効になっていません
+if [ -z "$PS1" ]; then
+    return
+fi
+
 export DOTFILES=$HOME/src/github.com/ohtomi/dotfiles
 
 # $HOME/bin
