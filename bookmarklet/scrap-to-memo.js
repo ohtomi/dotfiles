@@ -1,9 +1,7 @@
 javascript: (function () {
     var title = window.prompt('Scrap to memo.', document.title);
     if (!title) return;
-    if (window.location.href.startsWith('https://github.com') && title.indexOf(':') !== -1) title = title.substr(0, title.indexOf(':'));
-    var lines = [];
-    lines.push(window.location.href);
+    var lines = [window.location.href];
     lines.push('');
     var selection = document.getSelection();
     if (selection && selection.rangeCount) {
@@ -29,7 +27,6 @@ javascript: (function () {
         lines.push(doc.textContent);
         lines.push('');
     }
-    if (window.location.href.startsWith('https://github.com')) lines.push('#repository');
     lines.push('');
     var body = encodeURIComponent(lines.join('\n'));
     window.open('https://scrapbox.io/ohtomi-memo/' + encodeURIComponent(title.trim()) + '?body=' + body);
