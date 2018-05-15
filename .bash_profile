@@ -30,6 +30,9 @@ if which nodebrew > /dev/null; then
   nodebrew use v10.0.0
 fi
 
+# pipenv
+export PIPENV_VENV_IN_PROJECT=true
+
 # golang
 export GOPATH=$HOME
 export PATH=$GOPATH/bin:$PATH
