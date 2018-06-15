@@ -22,7 +22,7 @@ fi
 
 mkdir -p $HOME/bin
 
-binfiles="gzipinfo"
+binfiles="gzipinfo fortune"
 
 for binfile in $binfiles
 do
