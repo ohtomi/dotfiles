@@ -11,6 +11,7 @@ def fortune():
     commands = '''
 h   GitHubリポジトリーをブラウザーで開きます。
 c   直下のディレクトリーへ移動します。
+http    ターミナルで使えるHTTPクライアントです。
 sblist  Scrapboxのページ一覧を出力します。
 sbread  Scrapboxのページ本文を出力します。
 sbopen  Scrapboxのページをブラウザーで開きます。
