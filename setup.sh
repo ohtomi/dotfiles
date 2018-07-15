@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dotfiles=".bash_profile .bashrc .gitconfig .gitignore_global .vimrc"
+dotfiles=".bash_profile .bashrc .gitconfig .gitignore_global .vimrc .fixpackrc"
 
 for dotfile in $dotfiles
 do
