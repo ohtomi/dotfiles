@@ -21,6 +21,9 @@ source /usr/local/etc/bash_completion.d/nodebrew
 # tmux
 source /usr/local/etc/bash_completion.d/tmux
 
+# travis
+source /usr/local/var/rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/travis-1.8.9/assets/travis.sh
+
 # In addition, if you set GIT_PS1_SHOWDIRTYSTATE to a nonempty value,
 # unstaged (*) and staged (+) changes will be shown next to the branch
 # name.  You can configure this per-repository with the
