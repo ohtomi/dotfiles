@@ -19,6 +19,7 @@ sbopen  Scrapboxのページをブラウザーで開きます。
 sblink  Scrapboxのページに含まれるURLブラウザーで開きます。
 stern   Kubernetesクラスターのログをtailします。
 tig ターミナルで使えるgitブラウザーです。
+travis  Travis-CIのクライアントツールです。
 vault   パスワードをセキュアに管理するツールです。
 "fortune edit"で表示する警句を編集できます。
 '''[1:-1].split('\n')
