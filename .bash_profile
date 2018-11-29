@@ -1,4 +1,4 @@
-# bind: 警告: 行編集が有効になっていません
+# bind: warning: line editing not enabled
 if [ -z "$PS1" ]; then
     return
 fi
