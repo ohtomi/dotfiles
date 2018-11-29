@@ -18,16 +18,18 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_ANALYTICS=1
 
 # rbenv
+export GLOBAL_RUBY_VERSION=2.5.0
 export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
-  rbenv global 2.5.0
+  rbenv global $GLOBAL_RUBY_VERSION
 fi
 
 # nodebrew
+export GLOBAL_NODE_VERSION=v10.0.0
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 if which nodebrew > /dev/null; then
-  nodebrew use v10.0.0
+  nodebrew use $GLOBAL_NODE_VERSION
 fi
 
 # pipenv
