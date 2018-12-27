@@ -12,7 +12,9 @@ def fortune():
 h   GitHubリポジトリーをブラウザーで開きます。
 c   直下のディレクトリーへ移動します。
 http    ターミナルで使えるHTTPクライアントです。
+gops    Goプロセスのためのpsコマンドです。
 jo      JSON文字列を組み立てるツールです。
+qq  UNIXコマンドをSQLで抽出できるツールです。
 sblist  Scrapboxのページ一覧を出力します。
 sbread  Scrapboxのページ本文を出力します。
 sbopen  Scrapboxのページをブラウザーで開きます。
@@ -20,7 +22,6 @@ sblink  Scrapboxのページに含まれるURLブラウザーで開きます。
 stern   Kubernetesクラスターのログをtailします。
 tig ターミナルで使えるgitブラウザーです。
 travis  Travis-CIのクライアントツールです。
-vault   パスワードをセキュアに管理するツールです。
 "fortune edit"で表示する警句を編集できます。
 '''[1:-1].split('\n')
     index = randint(0, len(commands)-1)
