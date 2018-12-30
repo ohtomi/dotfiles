@@ -17,6 +17,9 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_ANALYTICS=1
 
+# ghg
+export GHG_HOME=~/
+
 # rbenv
 export GLOBAL_RUBY_VERSION=2.5.0
 export RBENV_ROOT=/usr/local/var/rbenv
