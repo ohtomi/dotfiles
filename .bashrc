@@ -21,6 +21,12 @@ source /usr/local/etc/bash_completion.d/nodebrew
 # tmux
 source /usr/local/etc/bash_completion.d/tmux
 
+# hub
+source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
+
+# helm
+source /usr/local/etc/bash_completion.d/helm
+
 # travis
 source ~/.travis/travis.sh
 
