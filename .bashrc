@@ -24,6 +24,9 @@ source /usr/local/etc/bash_completion.d/tmux
 # hub
 source /usr/local/etc/bash_completion.d/hub.bash_completion.sh
 
+# skaffold
+source /usr/local/etc/bash_completion.d/skaffold
+
 # helm
 source /usr/local/etc/bash_completion.d/helm
 
