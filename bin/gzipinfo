@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 HELP=$(cat <<EOS
 List name, date/time, attribute, size, compression method, etc., about files

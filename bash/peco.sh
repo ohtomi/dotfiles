@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function g {
   local dir="$(ghq list -p | peco)"

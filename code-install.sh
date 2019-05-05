@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 code --install-extension kenhowardpdx.vscode-gist
 code --install-extension mechatroner.rainbow-csv

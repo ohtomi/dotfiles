@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 dotfiles=".bash_profile .bashrc .gitconfig .gitignore_global .vimrc .fixpackrc"
 
