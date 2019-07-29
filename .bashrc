@@ -33,6 +33,9 @@ source /usr/local/etc/bash_completion.d/helm
 # travis
 source ~/.travis/travis.sh
 
+# poetry
+source /usr/local/etc/bash_completion.d/poetry.bash-completion
+
 # In addition, if you set GIT_PS1_SHOWDIRTYSTATE to a nonempty value,
 # unstaged (*) and staged (+) changes will be shown next to the branch
 # name.  You can configure this per-repository with the
