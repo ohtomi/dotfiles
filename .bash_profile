@@ -41,6 +41,7 @@ export PIPENV_VENV_IN_PROJECT=true
 # golang
 export GOPATH=$HOME
 export PATH=$GOPATH/bin:$PATH
+export GO111MODULE=on
 
 # .bashrc
 [[ -f "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
