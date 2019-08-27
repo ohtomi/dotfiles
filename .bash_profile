@@ -29,7 +29,7 @@ if which rbenv > /dev/null; then
 fi
 
 # nodebrew
-export GLOBAL_NODE_VERSION=v10.0.0
+export GLOBAL_NODE_VERSION=v12.9.1
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 if which nodebrew > /dev/null; then
   nodebrew use $GLOBAL_NODE_VERSION
