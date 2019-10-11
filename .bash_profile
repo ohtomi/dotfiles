@@ -12,7 +12,7 @@ export PATH=$HOME/bin:$PATH
 export PATH=/usr/local/share/git-core/contrib/diff-highlight:$PATH
 
 # homebrew
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export HOMEBREW_NO_AUTO_UPDATE=1
 export HOMEBREW_NO_ANALYTICS=1
