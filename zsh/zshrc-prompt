@@ -1,0 +1,13 @@
+autoload -Uz colors && colors
+setopt prompt_subst
+
+autoload -Uz vcs_info
+autoload -Uz add-zsh-hook
+zstyle ':vcs_info:git:*' check-for-changes true
+zstyle ':vcs_info:git:*' stagedstr "+"              # %c で表示する文字列
+zstyle ':vcs_info:git:*' unstagedstr "-"            # %u で表示する文字列
+zstyle ':vcs_info:*' formats '%F{green}%c%u[%b]%f'  # %b はブランチ名、%f は %F のリセット
+zstyle ':vcs_info:*' actionformats '[%b|%a]'        # %a はアクション名
+RPROMPT='${vcs_info_msg_0_}'
+
+add-zsh-hook precmd vcs_info
