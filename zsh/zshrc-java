@@ -4,6 +4,4 @@ export GLOBAL_SBT_VERSION=1.3.6
 export GLOBAL_GROOVY_VERSION=2.5.8
 export GLOBAL_LAZYBONES_VERSION=0.8.3
 
-if [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]]; then
-  source "${HOME}/.sdkman/bin/sdkman-init.sh"
-fi
+[[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
