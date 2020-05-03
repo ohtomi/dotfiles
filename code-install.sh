@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 code --install-extension bungcip.better-toml
 code --install-extension GitHub.vscode-pull-request-github
