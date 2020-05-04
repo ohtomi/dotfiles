@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-cat $1 | perl -pe 's/\n//g'
+node -e 'console.log(`javascript:${encodeURIComponent(process.argv[1])}`)' "$(cat $1)"
 echo

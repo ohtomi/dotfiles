@@ -1,4 +1,4 @@
-javascript: (function () {
+(function () {
     var title = window.prompt('Scrap to wishlist.', document.title);
     if (!title) return;
     var lines = [` [${window.location.href} ${title}]`];
