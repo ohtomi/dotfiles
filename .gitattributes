@@ -1,0 +1,11 @@
+*.css css
+*.go golang
+*.html html
+*.java java
+*.md markdown
+*.pl perl
+*.py python
+*.rb ruby
+*.rlib rust
+*.rs rust
+*.scss css

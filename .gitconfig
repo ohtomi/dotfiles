@@ -3,6 +3,7 @@
 	email = ohtomi.kenichi@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
+	attributesfile = /Users/ohtomi/.gitattributes
 [pager]
 	log = diff-highlight | less
 	show = diff-highlight | less

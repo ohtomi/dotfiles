@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-dotfiles=(.zshrc .gitconfig .gitignore_global .vimrc .fixpackrc)
+dotfiles=(.zshrc .gitconfig .gitattributes .gitignore_global .vimrc .fixpackrc)
 
 for dotfile in $dotfiles
 do
