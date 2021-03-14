@@ -1,5 +1,0 @@
-if [[ ! -d "${HOME}/src/github.com/zplug/zplug" ]];then
-  git clone https://github.com/zplug/zplug "${HOME}/src/github.com/zplug/zplug"
-fi
-
-[[ -s "${HOME}/src/github.com/zplug/zplug/init.zsh" ]] && source "${HOME}/src/github.com/zplug/zplug/init.zsh"
