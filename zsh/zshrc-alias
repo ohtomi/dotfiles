@@ -1,2 +1,1 @@
-alias ll='/bin/ls -laG'
-alias ls='/bin/ls --color=auto'
+alias ll='ls -laG'

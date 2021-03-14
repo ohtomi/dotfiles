@@ -36,6 +36,9 @@ unsetopt promptcr           # 出力の文字列末尾に改行コードが無�
 zstyle ':completion:*:default' menu select=1                               # 補完候補を一覧表示し、Tabや矢印で選択できるようにする
 zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' '+m:{A-Z}={a-z}'    # 普通に補完→ 小文字を大文字にして補完→ 大文字を小文字にして補完
 
+# /bin/lsの設定
+export LSCOLORS=cxfxcxdxbxegedabagacad
+
 # Homebrewの設定
 export PATH="/usr/local/sbin:${PATH}"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
