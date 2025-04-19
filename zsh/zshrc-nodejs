@@ -1,2 +1,0 @@
-export GLOBAL_NODE_VERSION=v12.13.1
-export PATH="${HOME}/.nodebrew/current/bin:${PATH}"

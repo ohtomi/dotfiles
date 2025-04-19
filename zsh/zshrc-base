@@ -50,6 +50,3 @@ export PATH="/usr/local/share/git-core/contrib/diff-highlight:${PATH}"
 
 # GHGの設定
 export GHG_HOME=~/
-
-# そのほかの設定
-[[ -s "$HOME/.github_token" ]] && source "$HOME/.github_token"

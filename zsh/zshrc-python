@@ -1,6 +1,0 @@
-if [[ -s "${HOME}/.poetry/env" ]]; then
-  source "${HOME}/.poetry/env"
-  compinit
-fi
-
-[[ -s "${HOME}/.zfunc/_pip3" ]] && source "${HOME}/.zfunc/_pip3"
