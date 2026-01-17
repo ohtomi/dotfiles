@@ -3,13 +3,15 @@
 	email = ohtomi.kenichi@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
-	attributesfile = /Users/ohtomi/.gitattributes
+	attributesfile = ~/.gitattributes
 [pager]
 	log = diff-highlight | less
 	show = diff-highlight | less
 	diff = diff-highlight | less
 [diff]
 	compactionHeuristic = true
+[diff "exif"]
+	textconv = exiftool
 [alias]
 	alias  = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ => \\2/' | sort
 	ignore = "!ignore () { echo $1 >> .gitignore;}; ignore"
@@ -20,11 +22,11 @@
 	l = !git log --oneline --graph --decorate --date=short --pretty=\"format:%C(yellow)%h %C(cyan)%ad %C(green)%an%Creset%x09%s %C(red)%d%Creset\"
 	ln = !git log --name-status
 	this = !git init && git add . && git commit -m \"Initial commit\"
-[ghq]
-	root = ~/src
 [credential]
 	helper = osxkeychain
 [init]
 	defaultBranch = main
 [pull]
 	rebase = false
+[ghq]
+	root = ~/Documents/src

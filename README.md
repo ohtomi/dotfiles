@@ -1,13 +1,15 @@
 # dotfiles
 
 ## Usage
-```
-$ git clone git@github.com:ohtomi/dotfiles.git ~/src/github.com/ohtomi/dotfiles
-$ cd ~/src/github.com/ohtomi/dotfiles
-$ zsh ./setup.sh
+
+```console
+% git clone git@github.com:ohtomi/dotfiles.git ~/Documents/src/github.com/ohtomi/dotfiles
+% cd ~/Documents/src/github.com/ohtomi/dotfiles
+% zsh ./link-dotfiles.sh
 ```
 
 ## License
+
 MIT
 
 ## Author

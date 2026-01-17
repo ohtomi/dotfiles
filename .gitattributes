@@ -1,11 +1,11 @@
-*.css css
-*.go golang
-*.html html
-*.java java
-*.md markdown
-*.pl perl
-*.py python
-*.rb ruby
-*.rlib rust
-*.rs rust
-*.scss css
+*.png    diff=exif
+*.jpg    diff=exif
+*.jpeg   diff=exif
+*.gif    diff=exif
+*.bmp    diff=exif
+*.webp   diff=exif
+*.ico    diff=exif
+*.heic   diff=exif
+*.heif   diff=exif
+
+*.svg    text

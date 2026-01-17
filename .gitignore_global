@@ -1,2 +1,41 @@
-.DS_Store
+# -------------------- JavaScript/TypeScript -------------------- #
+
+# Node.js dependency directories
+node_modules/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Sveltekit cache directory
+.svelte-kit/
+build/
+
+# Storybook
+storybook-static/
+
+# Playwright
+playwright-report/*
+test-results/*
+
+
+# -------------------- Go -------------------- #
+
+# (TODO)
+
+
+# -------------------- Misc -------------------- #
+
+# Editor/IDE
 .idea/
+.vscode/
+!.vscode/extensions.json
+
+# env file
+.env
+.env.*
+!.env.example
+!.env.test
+
+# macOS
+.DS_Store
