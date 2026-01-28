@@ -1,6 +1,7 @@
 brew "bash"
 brew "colima"
 brew "curl"
+brew "docker"
 brew "docker-compose"
 brew "ghq"
 brew "git"
