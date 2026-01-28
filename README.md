@@ -8,10 +8,17 @@
 % zsh ./link-dotfiles.sh
 ```
 
-## License
+```console
+# install Homebrew applications
+% brew bundle
+```
 
-MIT
+```console
+# uninstall Homebrew applications
+% brew bundle cleanup
+```
 
-## Author
-
-[Kenichi Ohtomi](https://github.com/ohtomi)
+```console
+# update Homebrew bundle file
+% brew bundle dump --force
+```
